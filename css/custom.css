@@ -1,0 +1,60 @@
+html {
+    position: relative;
+    height: 100%;      
+}
+body {
+    height: 100%;
+    background-color: #f0ffff;
+    text-align: center;
+    overflow: auto;
+}
+
+section {
+    padding: 10px 0 10px 0;
+}
+p {
+    
+}
+.test-button button {
+    margin-right: 30px !important;
+    padding-left: 20px !important;
+}
+.jumbotron {
+    color: #E6F2F2;
+    background-color: #008080;
+}
+header {
+    text-align: center;
+    padding-bottom: 10px;
+    color: #2eb8b8;
+}
+/* ------------- Navigation --------- */
+.navbar {
+    background-color: #00CCCC;
+    font-weight: bold;
+}
+.navbar .navbar-nav > li > a {
+    color: #4D4D4D;
+    font-weight: bold;
+}
+
+/* ---------- Learn More Button ------------ */
+a#learn-btn {
+    background-color: #00CCFF;
+}
+
+footer {
+    padding: 20px 0 20px 0;
+    width: 100%;
+    background-color: #326363;
+    clear: both;
+    border-top: 1px solid #d1d1d1;
+    overflow: auto;
+    vertical-align: bottom;
+    color: #e6e6b8;
+}
+footer p {
+    float: right; 
+    color: #e6e6b8;
+    padding-right: 10px;
+}
