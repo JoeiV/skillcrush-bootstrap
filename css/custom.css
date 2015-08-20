@@ -7,27 +7,57 @@ body {
     background-color: #f0ffff;
     text-align: center;
     overflow: auto;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-section {
-    padding: 10px 0 10px 0;
-}
-p {
-    
-}
-.test-button button {
-    margin-right: 30px !important;
-    padding-left: 20px !important;
-}
-.jumbotron {
-    color: #E6F2F2;
-    background-color: #008080;
-}
+/* -----------Main Page Header--------- */
 header {
     text-align: center;
     padding-bottom: 10px;
     color: #2eb8b8;
 }
+    header h1 {
+        font-size: 400%;
+    }
+
+/* -----------Middle Section with specific styles for lyrics, song, artist-------------- */
+section {
+    padding: 10px 0 10px 0;
+}
+/*     #middle {
+       font-style: ; //complete to change font for entire area
+    } */
+#lyrics {
+    font-style: italic;
+    font-family: "Palatino Linotype", Palatino, serif;
+    font-size: 108%;
+}
+#song {
+    font-style: italic;
+    font-weight: bold;
+}
+#artist {
+   font-weight: bolder; 
+}
+
+/* ------------------Style for Buttons---------------------- */
+.test-button button {
+    margin-right: 30px !important;
+    font-family: Impact, Charcoal, sans-serif;
+}
+.glyphicon {
+    margin: 7px;
+}
+
+/* -------------Jumbotron/Hero Area------------------------ */
+.jumbotron {
+    color: #E6F2F2;
+    background-color: #008080;
+}
+    .jumbotron p {
+        
+    }
+
 /* ------------- Navigation --------- */
 .navbar {
     background-color: #00CCCC;
@@ -43,6 +73,7 @@ a#learn-btn {
     background-color: #00CCFF;
 }
 
+/* ------------Footer Area ----------------- */
 footer {
     padding: 20px 0 20px 0;
     width: 100%;
