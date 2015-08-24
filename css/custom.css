@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Sail|Molle:400Italic|Mr+Bedfort|Poiret+One')
+@import url('http://fonts.googleapis.com/css?family=Sail|Shadows+Into+Light|Rock+Salt|Permanent+Marker|Bangers');
 
 html {
     position: relative;
@@ -31,6 +31,7 @@ header {
 }
     header h1 {
         font-size: 400%;
+        font-family: 'Bangers', cursive;
     }
 
 /* -----------Middle Section with specific styles for lyrics, song, artist-------------- */
@@ -41,13 +42,14 @@ section {
        background-color: rgba(144, 144, 233, 0.47);
     }
 #lyrics {
-    font-style: italic;
-    font-family: "Palatino Linotype", Palatino, serif;
-    font-size: 108%;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bolder;
+    font-size: 120%;
 }
 .song {
-    font-weight: bold;
-    
+    font-weight: 800;
+    font-family: 'Rock Salt', cursive;
+    font-size: 120%;
     justify-content: center;
     align-items: center;
 }
@@ -55,7 +57,8 @@ section {
 /* ------------------Style for Buttons---------------------- */
 .test-button button {
     margin-right: 30px !important;
-    font-family: Impact, Charcoal, sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 700;
     box-shadow: 1px 1px 2px #242424;
     border: 1px solid #242424;
 }
@@ -74,7 +77,7 @@ section {
 
 /* ------------- Navigation --------- */
 .navbar {
-    background-color: #bababf;  
+    background-color: rgba(186, 186, 191, 0.63);  
     font-weight: bold;
     border-bottom: 3px solid #000;
     padding: 7px;
@@ -95,7 +98,7 @@ a#learn-btn {
 footer {
     padding: 20px 0 20px 0;
     width: 100%;
-    background-color: #2B497D;
+    background-color: rgba(43, 73, 125, 0.84);
     clear: both;
     border-top: 1px solid #d1d1d1;
     overflow: auto;
