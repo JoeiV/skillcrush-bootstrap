@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Sail|Shadows+Into+Light|Rock+Salt|Permanent+Marker|Bangers');
+@import url('http://fonts.googleapis.com/css?family=Sail|Shadows+Into+Light|Rock+Salt|Permanent+Marker|Bangers|Audiowide|Coda');
 
 html {
     position: relative;
@@ -31,7 +31,7 @@ header {
 }
     header h1 {
         font-size: 400%;
-        font-family: 'Bangers', cursive;
+        font-family: 'Audiowide', cursive;
     }
 
 /* -----------Middle Section with specific styles for lyrics, song, artist-------------- */
