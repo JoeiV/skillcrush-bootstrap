@@ -1,20 +1,33 @@
+@import url('http://fonts.googleapis.com/css?family=Sail|Molle:400Italic|Mr+Bedfort|Poiret+One')
+
 html {
     position: relative;
-    height: 100%;      
+    height: 100%;   
+    width: 100%;
+    margin: 0;
 }
 body {
     height: 100%;
-    background-color: #f0ffff;
+    width: 100%;
+    margin: 0;
+    background-color: #C7CFCC;
     text-align: center;
     overflow: auto;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: url('../img/LedZep_dryice.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center; 
 }
 
 /* -----------Main Page Header--------- */
 header {
     text-align: center;
     padding-bottom: 10px;
-    color: #2eb8b8;
+    color: #A5FFE1;
+    text-shadow: 2px 2px 2px #D63A40;
 }
     header h1 {
         font-size: 400%;
@@ -24,26 +37,27 @@ header {
 section {
     padding: 10px 0 10px 0;
 }
-/*     #middle {
-       font-style: ; //complete to change font for entire area
-    } */
+    #middle {
+       background-color: rgba(144, 144, 233, 0.47);
+    }
 #lyrics {
     font-style: italic;
     font-family: "Palatino Linotype", Palatino, serif;
     font-size: 108%;
 }
-#song {
-    font-style: italic;
+.song {
     font-weight: bold;
-}
-#artist {
-   font-weight: bolder; 
+    
+    justify-content: center;
+    align-items: center;
 }
 
 /* ------------------Style for Buttons---------------------- */
 .test-button button {
     margin-right: 30px !important;
     font-family: Impact, Charcoal, sans-serif;
+    box-shadow: 1px 1px 2px #242424;
+    border: 1px solid #242424;
 }
 .glyphicon {
     margin: 7px;
@@ -51,8 +65,8 @@ section {
 
 /* -------------Jumbotron/Hero Area------------------------ */
 .jumbotron {
-    color: #E6F2F2;
-    background-color: #008080;
+    color: #A5FFE1;
+    background-color: rgba(77, 77, 77, 0.56);
 }
     .jumbotron p {
         
@@ -60,32 +74,36 @@ section {
 
 /* ------------- Navigation --------- */
 .navbar {
-    background-color: #00CCCC;
+    background-color: #bababf;  
     font-weight: bold;
+    border-bottom: 3px solid #000;
+    padding: 7px;
+    align-items: center;
 }
 .navbar .navbar-nav > li > a {
-    color: #4D4D4D;
+    color: #2B497D;
     font-weight: bold;
 }
 
 /* ---------- Learn More Button ------------ */
 a#learn-btn {
-    background-color: #00CCFF;
+    background-color: #D63A40;
+    box-shadow: 1px 1px 2px #242424;
 }
 
 /* ------------Footer Area ----------------- */
 footer {
     padding: 20px 0 20px 0;
     width: 100%;
-    background-color: #326363;
+    background-color: #2B497D;
     clear: both;
     border-top: 1px solid #d1d1d1;
     overflow: auto;
     vertical-align: bottom;
-    color: #e6e6b8;
+    color: #d1d1d1;
 }
 footer p {
     float: right; 
-    color: #e6e6b8;
+    color: #d1d1d1;
     padding-right: 10px;
 }
